@@ -15,4 +15,12 @@
         android:layout_height="850px"
         android:translationX="0px" />
 
+    <ImageView
+        android:id="@+id/robot"
+        android:src="@drawable/robot"
+        android:onClick="startAnimation"
+        android:layout_width="450px"
+        android:layout_height="850px"
+        android:translationX="0px" />
+
 </LinearLayout>
