@@ -1,3 +1,7 @@
+/**
+ * A header comment!
+ */
+
 package com.benjdd.robot;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -11,6 +15,9 @@ import android.widget.ImageView;
 
 import java.util.Random;
 
+/**
+ * A comment for the class
+ */
 public class MainActivity extends AppCompatActivity {
 
     Random randomGenerator;
@@ -19,6 +26,10 @@ public class MainActivity extends AppCompatActivity {
     int xCoord = 0;
     int yCoord = 0;
 
+    /**
+     * This is oncreate yo
+     * @param savedInstanceState
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,6 +47,10 @@ public class MainActivity extends AppCompatActivity {
         anim1X.setSpring(forceX);
     }
 
+    /**
+     * Something
+     * @param v
+     */
     public void startAnimation(View v) {
         anim1X.setStartValue(xCoord);
         anim1Y.setStartValue(yCoord);
